@@ -166,7 +166,7 @@ function GenerateForm {
     }
 
     #Search AD for a name similar to what was entered into the source user text box
-    $OUs = 'OU=Corp,OU=Users,OU=RP,DC=radpartners,DC=com','OU=Physicians,OU=Users,OU=RP,DC=radpartners,DC=com'
+    $OUs = <Top level User OU>
     $bsourceSearch_OnClick =
     {
         $global:sourceProfiles = @()
